@@ -8,16 +8,16 @@ import Rank from './components/Rank/Rank';
 import './App.css';
 
 const particlesOptions = {
-          particles: {
-            line_linked: {
-              shadow: {
-                enable: true,
-                color: "#3CA9D1",
-                blur: 5
-              }
-            }
-          }
-        }
+  particles: {
+    number: {
+      value: 50,
+      density: {
+        enable: true,
+        value_area: 400
+      },
+    },
+  },
+}
 
 class App extends Component {
   render() {
